@@ -171,10 +171,9 @@ aside li:hover {
      background-color: #f48f28;
      padding: 0.3rem 0;
      border-radius: 25px;
-     width: max-content;
      font-size: xx-small;
      float: inline-end;
-     margin: 0.4rem;
+     margin: 0.65rem 0 0 11.6rem;
      position: absolute;
 }
 
