@@ -109,6 +109,7 @@ aside li {
 
 aside li:hover {
      background-color: #222f3c;
+     cursor: pointer;
 }
 
 #body {
@@ -120,6 +121,7 @@ aside li:hover {
 
 #body-head {
      display: flex;
+     font-size: x-large;
      width: 98%;
      justify-content: space-between;
 }
