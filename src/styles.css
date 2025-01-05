@@ -161,6 +161,7 @@ aside li:hover {
      width: 19%;
      border: 1px solid rgb(189, 189, 189);
      padding: 0.8rem;
+     /* position: absolute; */
      border-radius: 14px;
      margin: 0 2rem 2rem 0;
 }
@@ -174,7 +175,7 @@ aside li:hover {
      font-size: xx-small;
      float: inline-end;
      margin: 0.4rem;
-     /* position: absolute; */
+     position: absolute;
 }
 
 .card .rating .fa {
@@ -190,7 +191,7 @@ aside li:hover {
 
 .card img {
      width: 100%;
-     padding-top: 1rem;
+     /* padding-top: 1rem; */
 }
 
 .card .product, .card .price {
