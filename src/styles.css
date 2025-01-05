@@ -11,9 +11,12 @@ li {
 nav {
      width: 100%;
      height: 3rem;
-     /* border-bottom: 0px solid rgba(228, 227, 227, 0.76); */
      display: flex;
      align-items: center;
+     border-bottom: 1px solid #f1f0f6;
+     position: fixed;
+     z-index: 1;
+     background-color: white;
      justify-content: space-between;
 }
 
@@ -29,13 +32,12 @@ nav div{
      background-color: #1b2533;
      color: white;
      height: 100%;
+     z-index: 100;
      border-bottom: 2px solid #253141;
-     /* padding-left: 1%; */
 }
 
 #search {
      width: 40%;
-     border-bottom: 1px solid #f1f0f6;
 }
 
 .fa {
@@ -69,7 +71,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 #profile {
      width: 33%;
-     border-bottom: 1px solid #f1f0f6;
+     /* border-bottom: 1px solid #f1f0f6; */
      justify-content: space-between;
 }
 
@@ -78,8 +80,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 #date-picker {
-     background-color: rgb(243, 243, 243);
-     /* padding: 0 1rem; */
+     background-color: #f4f6f8;
      border-radius: 10px;
      color: rgb(95, 95, 95);
 }
@@ -97,7 +98,7 @@ aside {
      width: 16%;
      height: 100%;
      background-color: #1b2533;
-     padding: 0 0.4rem;
+     padding: 2.3rem 0.4rem;
      color: #818ea3;
 }   
 
@@ -115,8 +116,9 @@ aside li:hover {
 #body {
      width: 84%;
      margin-left: 20%;
-     margin-top: 2rem;
+     margin-top: 5rem;
      display: flex;
+     flex-direction: column;
 }
 
 #body-head {
@@ -147,4 +149,74 @@ aside li:hover {
 .fa-plus {
      display: inline;
      color: white;
+}
+
+#cards {
+     width: 98%;
+     display: flex;
+     /* border: 1px solid red; */
+     margin-top: 2rem;
+     flex-wrap: wrap;
+}
+
+.card {
+     width: 19%;
+     border: 1px solid rgb(189, 189, 189);
+     padding: 0.8rem;
+     border-radius: 14px;
+     margin: 0 2rem 2rem 0;
+}
+
+.card .rating {
+     letter-spacing: 2.4px;
+     background-color: #f48f28;
+     padding: 0.3rem 0;
+     border-radius: 25px;
+     width: max-content;
+     font-size: xx-small;
+     float: inline-end;
+     margin: 0.4rem;
+     /* position: absolute; */
+}
+
+.card .rating .fa {
+     color: white;
+}
+
+.card .img {
+     width: 100%;
+     border: 1px solid rgb(189, 189, 189);
+     height: 9.3rem;
+     border-radius: 10px;
+}
+
+.card img {
+     width: 100%;
+     padding-top: 1rem;
+}
+
+.card .product, .card .price {
+     display: block;
+     margin: 0.7rem 0;
+     font-weight: bold;
+}
+
+.card .sizes {
+     margin: 1.1rem 0 0.7rem 0;
+}
+
+.card .size {
+     border: 1px solid rgb(223, 223, 223);
+     padding: 0.4rem 0.6rem;
+     border-radius: 100%;
+     font-size: small;
+     margin-right: 0.4rem;
+}
+
+.card .size:nth-of-type(2) {
+     padding: 0.4rem 0.5rem;
+}
+
+.card .size:nth-of-type(4) {
+     padding: 0.4rem 0.4rem;
 }
