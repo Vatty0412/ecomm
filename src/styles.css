@@ -113,3 +113,92 @@ aside li:hover {
      margin-left: 17%;
      display: flex;
 }
+
+#body .fa-search, #add-more {
+     border: 1px solid rgb(165, 165, 165);
+     border-radius: 9px;
+     /* font-size: x-large; */
+     color: rgb(151, 151, 151);
+     padding: 0.4rem;
+}
+
+#add-more {
+     color: white;
+     background-color: #007ae3;
+     padding: 0.4rem 1rem;
+}
+
+.fa-plus {
+     display: inline;
+     color: white;
+}
+
+#cards {
+     width: 98%;
+     display: flex;
+     /* border: 1px solid red; */
+     margin-top: 2rem;
+     flex-wrap: wrap;
+}
+
+.card {
+     width: 19%;
+     border: 1px solid rgb(189, 189, 189);
+     padding: 0.8rem;
+     border-radius: 14px;
+     margin: 0 2rem 2rem 0;
+}
+
+.card .rating {
+     letter-spacing: 2.4px;
+     background-color: #f48f28;
+     padding: 0.3rem 0;
+     border-radius: 25px;
+     width: max-content;
+     font-size: xx-small;
+     float: inline-end;
+     margin: 0.4rem;
+     /* position: absolute; */
+}
+
+.card .rating .fa {
+     color: white;
+}
+
+.card .img {
+     width: 100%;
+     border: 1px solid rgb(189, 189, 189);
+     height: 9.3rem;
+     border-radius: 10px;
+}
+
+.card img {
+     width: 100%;
+     padding-top: 1rem;
+}
+
+.card .product, .card .price {
+     display: block;
+     margin: 0.7rem 0;
+     font-weight: bold;
+}
+
+.card .sizes {
+     margin: 1.1rem 0 0.7rem 0;
+}
+
+.card .size {
+     border: 1px solid rgb(223, 223, 223);
+     padding: 0.4rem 0.6rem;
+     border-radius: 100%;
+     font-size: small;
+     margin-right: 0.4rem;
+}
+
+.card .size:nth-of-type(2) {
+     padding: 0.4rem 0.5rem;
+}
+
+.card .size:nth-of-type(4) {
+     padding: 0.4rem 0.4rem;
+}
