@@ -85,9 +85,6 @@ input[type="search"]::-webkit-search-cancel-button {
      display: flex;
 }
 
-#main aside, #body {
-     border: 1px solid red;
-}
 
 aside {
      position: fixed;
@@ -110,8 +107,22 @@ aside li:hover {
 
 #body {
      width: 84%;
-     margin-left: 17%;
+     /* border: 1px solid red; */
+     margin-left: 20%;
+     margin-top: 7%;
      display: flex;
+     flex-direction: column;
+}
+
+#body-head {
+     width: 91%;
+}
+
+#body-head, #body-head-btns {
+     /* border: 1px solid blue; */
+     display: flex;
+     justify-content: space-between;
+     /* padding-right: 4rem; */
 }
 
 #body .fa-search, #add-more {
@@ -158,7 +169,8 @@ aside li:hover {
      font-size: xx-small;
      float: inline-end;
      margin: 0.4rem;
-     /* position: absolute; */
+     position: absolute;
+     margin-left: 11.6rem;
 }
 
 .card .rating .fa {
@@ -174,7 +186,7 @@ aside li:hover {
 
 .card img {
      width: 100%;
-     padding-top: 1rem;
+     /* padding-top: 1rem; */
 }
 
 .card .product, .card .price {
